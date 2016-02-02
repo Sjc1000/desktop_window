@@ -28,8 +28,7 @@ Done! :D
 | Variable                   | Description                                                 | Required  | Default |
 |----------------------------|-------------------------------------------------------------|   :---:   |  :---:  |
 | window.update_delay        | The delay between window updates.                           | ** No **  | 1       |
-| window.draw_function       | The function that gets called each draw update
-                               (see draw function section for more info)                   | ** Yes ** | None    |
+| window.draw_function       | The function that gets called each draw update (see draw function section for more info) | ** Yes ** | None    |
 | window.x                   | The x position of the window.                               | ** No **  | 0       |
 | window.y                   | The y position of the window.                               | ** No **  | 0       |
 | window.width               | The width of the window.                                    | ** No **  | 500     |
@@ -58,12 +57,10 @@ It ships with some basic system info related functions to make things easier.
 | ram                        | None                 | Returns the current ram usage.                                         |
 | net_up                     | None                 | Returns the current net up speed in bytes.                             |
 | net_down                   | None                 | Returns the current net down speed in bytes.                           |
-| brightness                 | backlight_type (/sys/class/backlight_type) Default: intel_backlight      
-                                                    | Returns the current brightness level.                                  |
+| brightness                 | backlight_type (/sys/class/backlight_type) Default: intel_backlight | Returns the current brightness level. |
 | uptimestr                  | None                 | Returns the current uptime as a string, days hours minutes and seconds |
 | uptime                     | None                 | Returns the current uptime as a tuple (days, hours, minutes, seconds)  |
-| battery                    | name (/sys/class/power_supply/BAT0) Default: BAT1
-                                                    | Returns information about the battery                                  |
+| battery                    | name (/sys/class/power_supply/BAT0) Default: BAT1 | Returns information about the battery     |
 | battery_percent            | same as battery      | Returns the current battery percentage                                 |
 | battery_current_full_max   | same as battery      | Returns the current battery level, full and designed max of the battery as a tuple   |
 | temp                       | None                 | Returns the current temperature of your computer                       |
