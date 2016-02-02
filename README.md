@@ -27,14 +27,15 @@ Done! :D
 
 | Variable                   | Description                                                 | Required  | Default |
 |----------------------------|-------------------------------------------------------------|   :---:   |  :---:  |
-| window.update_delay        | The delay between window updates.                           | ** No **  | 1       |
+| window.update_delay        | The delay between window updates.                           | No  | 1       |
 | window.draw_function       | The function that gets called each draw update (see draw function section for more info) | ** Yes ** | None    |
-| window.x                   | The x position of the window.                               | ** No **  | 0       |
-| window.y                   | The y position of the window.                               | ** No **  | 0       |
-| window.width               | The width of the window.                                    | ** No **  | 500     |
-| window.height              | The height of the window.                                   | ** No **  | 500     |
-| desktop_window.cpu_samples |  
-
+| window.x                   | The x position of the window.                               | No  | 0       |
+| window.y                   | The y position of the window.                               | No  | 0       |
+| window.width               | The width of the window.                                    | No  | 500     |
+| window.height              | The height of the window.                                   | No  | 500     |
+| desktop_window.cpu_samples | The number of cpu samples to average from.                  | No  | 5       |
+| desktop_window.net_samples | The number of net samples to average from.                  | No  | 5       |
+| desktop_window.net_interface | The interface that you are using for internet             | No  | wlan0   |
 
 ### Draw function
 
