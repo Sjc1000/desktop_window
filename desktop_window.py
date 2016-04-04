@@ -289,7 +289,7 @@ def temp():
         with open('/proc/acpi/thermal_zone/THM0/temperature') as f:
             data = int(f.read().split('\n')[0])
     else:
-        return None
+        return 0
     if len(last_temp) < 10:
         for i in range(10):
             last_temp.append(data)
